@@ -7,7 +7,7 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Towers of Hanoi: Solving with BFS",
+  title: "StackIt",
   description: "Interactive visualization of solving the Towers of Hanoi puzzle using Breadth-First Search algorithm",
     generator: 'v0.dev'
 }
