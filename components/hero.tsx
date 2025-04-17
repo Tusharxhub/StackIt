@@ -78,7 +78,7 @@ export default function Hero() {
     tap: { scale: 0.95 },
   }
 
-  const titleText = "Towers of Hanoi: Solving with BFS"
+  const titleText = "Towers of Hanoi using BFS"
   const titleLetters = titleText.split("")
 
   return (
