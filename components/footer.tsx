@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { FaGithub, FaEnvelope, FaTwitter, FaLinkedin, FaHeart } from "react-icons/fa"
+import { FaGithub, FaEnvelope, FaInstagram, FaLinkedin, FaHeart } from "react-icons/fa"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { GlassmorphismCard } from "@/components/ui/glassmorphism-card"
@@ -27,22 +27,28 @@ export default function Footer() {
                 <h3 className="font-medium">Connect</h3>
                 <div className="flex space-x-2">
                   <Button variant="ghost" size="icon" asChild>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/Tusharxhub" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                       <FaGithub className="h-5 w-5" />
                     </a>
                   </Button>
-                  <Button variant="ghost" size="icon" asChild>
-                    <a href="mailto:example@email.com" aria-label="Email">
+                    <Button variant="ghost" size="icon" asChild>
+                    <a
+                      href="mailto:thetushardev0@gmail.com?subject=Professional%20Inquiry&body=Dear%20Tushar%2C%0D%0A%0D%0AI%20hope%20this%20message%20finds%20you%20well.%20I%20would%20like%20to%20connect%20with%20you%20regarding%20a%20potential%20opportunity.%20Please%20let%20me%20know%20a%20convenient%20time%20for%20you."
+
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Email"
+                    >
                       <FaEnvelope className="h-5 w-5" />
                     </a>
                   </Button>
                   <Button variant="ghost" size="icon" asChild>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                      <FaTwitter className="h-5 w-5" />
+                    <a href="https://www.instagram.com/tushardevx01/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                      <FaInstagram className="h-5 w-5" />
                     </a>
                   </Button>
                   <Button variant="ghost" size="icon" asChild>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/tushar-kanti-dey-86185b28b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                       <FaLinkedin className="h-5 w-5" />
                     </a>
                   </Button>
