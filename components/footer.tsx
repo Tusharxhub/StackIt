@@ -59,7 +59,7 @@ export default function Footer() {
               <div className="flex flex-col space-y-2 md:items-end">
                 <h3 className="font-medium">About</h3>
                 <Button variant="ghost" size="sm" className="flex items-center gap-2 w-fit" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Tusharxhub/StackIt" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="h-4 w-4" />
                     <span>GitHub Repository</span>
                   </a>
